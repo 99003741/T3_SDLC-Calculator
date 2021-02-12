@@ -2,3 +2,5 @@ Decimal to binary, hexadecimal, octa decimal and vice versa
 Rupees to dollar, pound, dinar, euro, yen and vice versa 
 Arthemetic conversion-Addition, subtraction, multiplication, division: double datatype input and output
 BMI- Body mass index calculation:double datatype input and output
+Trignometry-sin,cos,tan and taking input angle
+Calculus-differentiation and intigration of equation and input variable value
