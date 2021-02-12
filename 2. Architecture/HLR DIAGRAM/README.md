@@ -4,6 +4,12 @@
                   
                      use case
 ![high level use case](https://user-images.githubusercontent.com/78853339/107731287-9833ac80-6d1b-11eb-9d79-8d056e392dc4.jpg)
-                    deployment diagram
+                  
+                  deployment diagram
+                  
 ![HLR](https://user-images.githubusercontent.com/78853299/107731485-2019b680-6d1c-11eb-90d9-d391c27f5d6c.jpg)
                     
+                    State machine 
+                    
+![HLR state machine](https://user-images.githubusercontent.com/78871103/107732954-b6031080-6d1f-11eb-9793-db4fe9b6bf17.jpg)
+                
