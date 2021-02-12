@@ -14,6 +14,10 @@ Features:-
 7. investment calculations
 8. BMI calculator
 
+SWOT ANALYSIS
+
+![swot](https://user-images.githubusercontent.com/78871103/107769970-bcfd4380-6d5e-11eb-9ba8-d50a2ae77009.JPG)
+
 4W1H
 
 •	WHAT
