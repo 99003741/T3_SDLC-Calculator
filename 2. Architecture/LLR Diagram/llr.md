@@ -18,5 +18,12 @@
 
                                                                         Usecase diagram for Statistic and Investment
                                                                         
-![Usecase statistic and investment](https://user-images.githubusercontent.com/78871103/107767954-be793c80-6d5b-11eb-91b3-97dcba4b1d82.jpg)       
+![Usecase statistic and investment](https://user-images.githubusercontent.com/78871103/107767954-be793c80-6d5b-11eb-91b3-97dcba4b1d82.jpg)    
+
+                                                                        state machine diagram for trignometry and calculus
+![LLR1](https://user-images.githubusercontent.com/78853299/107768481-845c6a80-6d5c-11eb-9b40-985faf3d3672.jpg)
+
+                                                                          object diagram for trignometry and calculus
+![LLR2](https://user-images.githubusercontent.com/78853299/107768483-84f50100-6d5c-11eb-96e5-d98ac61c9787.jpg)
+
 
