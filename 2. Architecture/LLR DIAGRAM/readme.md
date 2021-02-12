@@ -25,3 +25,9 @@
                                                 usecase Diagram for statistic and investment
                                                 
 ![Usecase statistic and investment](https://user-images.githubusercontent.com/78871103/107732663-eac29800-6d1e-11eb-96db-645ff3d7ad20.jpg)
+
+                                                class Diagram for statistic and investment
+                                                
+
+![Class statistic and investment](https://user-images.githubusercontent.com/78871103/107732818-573d9700-6d1f-11eb-818c-da2f6b121915.jpg)
+
