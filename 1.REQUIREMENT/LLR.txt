@@ -4,3 +4,5 @@ Arthemetic conversion-Addition, subtraction, multiplication, division: double da
 BMI- Body mass index calculation:double datatype input and output
 Trignometry-sin,cos,tan and taking input angle
 Calculus-differentiation and intigration of equation and input variable value
+Mean, mode, median
+Compound and simple interest
