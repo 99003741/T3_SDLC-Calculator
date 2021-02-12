@@ -4,3 +4,5 @@ Numeric conversions
 Currency conversions
 Arthemetic conversions
 BMI Conversion
+Trignometry operations
+Calculus Operations
