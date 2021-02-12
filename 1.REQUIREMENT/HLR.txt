@@ -2,3 +2,5 @@ Statistic Operations
 Investment Prediction
 Numeric conversions
 Currency conversions
+Arthemetic conversions
+BMI Conversion
