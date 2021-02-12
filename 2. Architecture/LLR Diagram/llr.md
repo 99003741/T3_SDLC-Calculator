@@ -11,3 +11,12 @@
   
                                                                         Class arithemetic BMI
   ![class arithemetic bmi LLR](https://user-images.githubusercontent.com/78853339/107768180-144de480-6d5c-11eb-87e7-e4b068d22da5.jpg)
+  
+                                                                        Class diagram for Statistic and Investment
+                                                                        
+![Class statistic and investment](https://user-images.githubusercontent.com/78871103/107767958-bf11d300-6d5b-11eb-96f9-cf97c6db7caf.jpg)
+
+                                                                        Usecase diagram for Statistic and Investment
+                                                                        
+![Usecase statistic and investment](https://user-images.githubusercontent.com/78871103/107767954-be793c80-6d5b-11eb-91b3-97dcba4b1d82.jpg)       
+
