@@ -1,2 +1,4 @@
 Statistic Operations
 Investment Prediction
+Numeric conversions
+Currency conversions
