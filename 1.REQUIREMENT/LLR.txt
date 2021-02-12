@@ -1,0 +1,2 @@
+Decimal to binary, hexadecimal, octa decimal and vice versa
+Rupees to dollar, pound, dinar, euro, yen and vice versa 
