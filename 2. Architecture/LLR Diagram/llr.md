@@ -8,3 +8,6 @@
   
                                                                         Usecase arithemetic BMI
   ![usecase arthimetic bmi LLR](https://user-images.githubusercontent.com/78853339/107767892-ad303000-6d5b-11eb-8d66-07ab7767a6aa.jpg)
+  
+                                                                        Class arithemetic BMI
+  ![class arithemetic bmi LLR](https://user-images.githubusercontent.com/78853339/107768180-144de480-6d5c-11eb-87e7-e4b068d22da5.jpg)
