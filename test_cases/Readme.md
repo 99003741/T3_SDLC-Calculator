@@ -105,3 +105,19 @@ BMI:
 6. Input 1: char Input 2: double
 7. Input 1: double Input 2: char
 8. Input 1: double Input 2: 0
+
+
+
+
+trignometry
+| ANGLE | 0 | 30 | 45 | 60 | 90 | 180 |
+| --- | --- | --- | --- | --- | --- | --- |
+| sin | 0 | 0.5 | 0.707 | 0.866 | 1 | 0 |
+| cos | 1 | 0.866 | 0.707 | 0.5 | 0 | -1 |
+| tan | 0 | 0.577 | 1 | 1.73 | infinity | 0 |
+
+Differentiation
+
+1: if input is constant output should zero.
+
+2: if input is above 2rd order equation error will be displayed.
