@@ -11,9 +11,12 @@
  
  
                                                use case of arthemetic and BMI
+                                               
  ![usecase arthi bmi](https://user-images.githubusercontent.com/78853339/107731482-1b550280-6d1c-11eb-983a-f5a876f27936.jpg)
-                                               state machine diagram 
-      ![LLR1](https://user-images.githubusercontent.com/78853299/107731614-71c24100-6d1c-11eb-9012-1e222a337f2d.jpg)
-                                                Object Diagram
+ 
+                                                state machine diagram 
+  ![LLR1](https://user-images.githubusercontent.com/78853299/107731614-71c24100-6d1c-11eb-9012-1e222a337f2d.jpg)
+      
+                                                Object Diagram                                             
     ![LLR2](https://user-images.githubusercontent.com/78853299/107731617-725ad780-6d1c-11eb-81f2-cdd05df3a333.jpg)                                            
                                          
