@@ -44,4 +44,6 @@ float multiply(float operand1, float operand2);
 */
 float divide(float operand1, float operand2);
 
+float bmi(float weight, float height);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
