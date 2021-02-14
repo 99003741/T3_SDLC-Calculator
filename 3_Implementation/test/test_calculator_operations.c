@@ -84,7 +84,13 @@ void test_multiply(void) {
 
 void test_divide(void) {
   TEST_ASSERT_EQUAL(0, divide(1, 0));
-  TEST_ASSERT_EQUAL(0, divide(1, 0));
+  TEST_ASSERT_EQUAL(1, divide(50, 50));
+  TEST_ASSERT_EQUAL(2, divide(2, 1));
+  TEST_ASSERT_EQUAL(10, divide(100, 10));
+  TEST_ASSERT_EQUAL(-1, divide(1, -1));
+  TEST_ASSERT_EQUAL(-0.5, divide(-1, 2));
+  TEST_ASSERT_EQUAL(232, divide(464, 2));
+  TEST_ASSERT_EQUAL(-20, divide(-20, 1));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
