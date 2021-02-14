@@ -69,12 +69,21 @@ void test_subtract(void) {
 
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
+  TEST_ASSERT_EQUAL(0, multiply(0, 0));
+  TEST_ASSERT_EQUAL(2, multiply(1, 2));
+  TEST_ASSERT_EQUAL(2, multiply(2, 1));
+  TEST_ASSERT_EQUAL(12, multiply(12, 1));
+  TEST_ASSERT_EQUAL(24, multiply(3, 8));
+  TEST_ASSERT_EQUAL(210, multiply(21, 10));
+  TEST_ASSERT_EQUAL(-1, multiply(-1, 0));
+  TEST_ASSERT_EQUAL(-12, multiply(6, -2));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(2, multiply(2, 5));
 }
 
 void test_divide(void) {
+  TEST_ASSERT_EQUAL(0, divide(1, 0));
   TEST_ASSERT_EQUAL(0, divide(1, 0));
   
   /* Dummy fail*/
