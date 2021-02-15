@@ -11,6 +11,7 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
+void test_bmi(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -29,6 +30,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_bmi);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -95,3 +97,15 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
+
+
+void test_bmi(void) 
+  {
+     TEST_ASSERT_EQUAL(-20, bmi(40, 2));
+     TEST_ASSERT_EQUAL(-20, bmi(50, 1.6));
+     TEST_ASSERT_EQUAL(-20, bmi(60, 1.2));
+     TEST_ASSERT_EQUAL(-20, bmi(70, 1.8));
+     TEST_ASSERT_EQUAL(-20, bmi(80, 1.5));
+     
+  }
+
