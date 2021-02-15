@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n9. Exit\n10.BMI");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n20. Exit\n10.BMI");
     printf("\n\tEnter your choice\n");
    
      
@@ -104,7 +104,7 @@ void calculator_menu(void)
         case 6:
             invest();
             break;
-        case 9:
+        case 20:
             exit(0);
             break;
         case 10:
