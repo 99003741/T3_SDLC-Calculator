@@ -1,6 +1,7 @@
 #include "unity.h"
 #include <calculator_operations.h>
 #include<conversion.h>
+#include<stat_invest.h>
 
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
@@ -17,6 +18,7 @@ void test_D2B(void);
 void test_D2O(void);
 void test_india(void);
 void test_dollar(void);
+void test_stat(void);
 =======
 void test_bmi(void);
 
@@ -43,6 +45,7 @@ int main()
   RUN_TEST(test_D2O);
   RUN_TEST(test_india);
   RUN_TEST(test_dollar);
+  RUN_TEST(test_stat);
 =======
   RUN_TEST(test_bmi);
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
@@ -52,6 +55,11 @@ int main()
 }
 
 /* Write all the test functions */ 
+
+void test_stat(void)
+{
+   TEST_ASSERT_EQUAL(2, meann(2,2));
+}
 void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
   TEST_ASSERT_EQUAL(-10, add(10, -20));
