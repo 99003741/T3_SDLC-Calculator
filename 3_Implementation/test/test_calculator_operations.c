@@ -101,11 +101,14 @@ void test_divide(void) {
 
 void test_bmi(void) 
   {
-     TEST_ASSERT_EQUAL(-20, bmi(40, 2));
-     TEST_ASSERT_EQUAL(-20, bmi(50, 1.6));
-     TEST_ASSERT_EQUAL(-20, bmi(60, 1.2));
-     TEST_ASSERT_EQUAL(-20, bmi(70, 1.8));
-     TEST_ASSERT_EQUAL(-20, bmi(80, 1.5));
+     TEST_ASSERT_EQUAL(21.18, bmi(74.84, 1.88));
+     TEST_ASSERT_EQUAL(25.09, bmi(83.91, 1.83));
+     TEST_ASSERT_EQUAL(23.17, bmi(61.23, 1.63));
+     TEST_ASSERT_EQUAL(25.11, bmi(79.38,1.78 ));
+     TEST_ASSERT_EQUAL(31.38, bmi(102.06, 1.80));
+     TEST_ASSERT_EQUAL(19.37, bmi(54.43, 1.68));
+     TEST_ASSERT_EQUAL(23.40, bmi(65.77, 1.68));
+     TEST_ASSERT_EQUAL(33.64, bmi(115.67, 1.85));
      
   }
 
