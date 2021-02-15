@@ -120,7 +120,7 @@ void calculator_menu(void)
         case 9:
 
         case 20:
-                break;
+               
 
             exit(0);
             break;
