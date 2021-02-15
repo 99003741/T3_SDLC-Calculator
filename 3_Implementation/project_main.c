@@ -113,14 +113,15 @@ void calculator_menu(void)
         case 6:
             invest();
             break;
-//<<<<<<< HEAD
+
         case 7:
             conversion();
             break;
         case 9:
-//=======
+
         case 20:
-//>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
+                break;
+
             exit(0);
             break;
         case 10:
