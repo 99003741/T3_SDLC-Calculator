@@ -9,8 +9,8 @@
 unsigned int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
-int calculator_operand1 = 0;
-int calculator_operand2 = 0;
+float calculator_operand1 = 0;
+float calculator_operand2 = 0;
 
 /* Valid operations */
 enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT=9};
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n9. Exit\n");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n9. Exit\n10.BMI");
     printf("\n\tEnter your choice\n");
    
      
@@ -50,7 +50,7 @@ void calculator_menu(void)
     {
         printf("\n\tEnter your Numbers with space between them\n");
         
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
+        scanf("%f %f", &calculator_operand1, &calculator_operand2);
     }
     else
     {
@@ -63,7 +63,7 @@ void calculator_menu(void)
     switch(calculator_operation)
     {
         case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
+            printf("\n\t%f + %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             add(calculator_operand1, calculator_operand2));
@@ -72,7 +72,7 @@ void calculator_menu(void)
             getchar();
             break;
         case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
+            printf("\n\t%f - %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
@@ -81,7 +81,7 @@ void calculator_menu(void)
             getchar();
             break;
         case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
+            printf("\n\t%f * %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
@@ -90,7 +90,7 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
+            printf("\n\t%f / %f = %f\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
@@ -106,6 +106,15 @@ void calculator_menu(void)
             break;
         case 9:
             exit(0);
+            break;
+        case 10:
+            printf("\n\t%f / %f = %f\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            bmi(calculator_operand1, calculator_operand2));
+
+
+            getchar();
             break;
         default:
             printf("\n\t---It should never come here---\n");
