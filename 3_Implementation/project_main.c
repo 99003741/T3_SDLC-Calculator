@@ -1,4 +1,5 @@
 #include <calculator_operations.h>
+#include "stat_invest.h"
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -12,7 +13,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT=9};
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -33,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n9. Exit\n");
     printf("\n\tEnter your choice\n");
    
      
@@ -98,6 +99,12 @@ void calculator_menu(void)
             getchar();
             break;
         case 5:
+            stat();
+            break;
+        case 6:
+            invest();
+            break;
+        case 9:
             exit(0);
             break;
         default:
