@@ -20,7 +20,7 @@ int calculator_operation;
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT=9};
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT=20};
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
