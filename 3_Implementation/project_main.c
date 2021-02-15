@@ -10,14 +10,14 @@
 unsigned int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
-<<<<<<< HEAD
+//<<<<<<< HEAD
 int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 int calculator_operation;
-=======
-float calculator_operand1 = 0;
-float calculator_operand2 = 0;
->>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
+//=======
+//float calculator_operand1 = 0;
+//float calculator_operand2 = 0;
+//>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 
 /* Valid operations */
 enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT=9};
@@ -41,11 +41,11 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-<<<<<<< HEAD
+//<<<<<<< HEAD
     printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n7.conversion\n9. Exit\n");
-=======
+//=======
     printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n20. Exit\n10.BMI");
->>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
+//>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
     printf("\n\tEnter your choice\n");
    
      
@@ -115,14 +115,14 @@ void calculator_menu(void)
         case 6:
             invest();
             break;
-<<<<<<< HEAD
+//<<<<<<< HEAD
         case 7:
             conversion();
             break;
         case 9:
-=======
+//=======
         case 20:
->>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
+//>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
             exit(0);
             break;
         case 10:

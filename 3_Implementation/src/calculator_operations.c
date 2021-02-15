@@ -57,7 +57,7 @@ float bmi(float operand1, float operand2)
     if(0 == operand2)
         return 0;
     else if(isdigit(operand1) && isdigit(operand2))
-        return operand1 / operand2* operand2;
+        return operand1 / operand2;
     else
         return 0;
 }
