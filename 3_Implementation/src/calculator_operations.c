@@ -5,14 +5,14 @@
 
 float add(float operand1, float operand2)
 { 
-    if(isdigit(operand1) && isdigit(operand2))
+   /* if(isdigit(operand1) && isdigit(operand2))
 {
   return operand1 + operand2;
 }
 else
-{
-  return 0;
-}
+{*/
+  return operand1 + operand2;
+//}
     
 }
 

@@ -1,5 +1,6 @@
 #include "unity.h"
 #include <calculator_operations.h>
+#include<conversion.h>
 
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
@@ -11,7 +12,10 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
-
+void test_D2B(void);
+void test_D2O(void);
+void test_india(void);
+void test_dollar(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -29,6 +33,10 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_D2B);
+  RUN_TEST(test_D2O);
+  RUN_TEST(test_india);
+  RUN_TEST(test_dollar);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -51,6 +59,11 @@ void test_add_testcase2(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1500, add(750, 7500));
 }
+void test_D2B(void)
+{
+  TEST_ASSERT_EQUAL(11001, D2B(25));
+  TEST_ASSERT_EQUAL(11010, D2B(26));
+}
 void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
   TEST_ASSERT_EQUAL(3, subtract(3, 0));
@@ -66,7 +79,21 @@ void test_subtract(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1, subtract(1000, 900));
 }
+void test_D2O(void)
+{
+  TEST_ASSERT_EQUAL(31, D2B(25));
+  TEST_ASSERT_EQUAL(32, D2B(26));
+}
+void test_india(void)
+{
+  TEST_ASSERT_EQUAL(0.99, india(72));
 
+}
+void test_dollar(void)
+{
+  TEST_ASSERT_EQUAL(72.6,dollar(1));
+
+}
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
   TEST_ASSERT_EQUAL(0, multiply(0, 0));

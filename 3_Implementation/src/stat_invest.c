@@ -23,7 +23,7 @@ scanf("%lf", &r);
             break;
     default: printf("Error\n");
     }
-return(0);
+//return(0);
 }
 
 double simple_interest(double pr, double ti, double ra)
