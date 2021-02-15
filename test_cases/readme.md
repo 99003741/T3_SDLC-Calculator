@@ -46,3 +46,59 @@ For example:-
 | 20 | 32 | 40 | 100000 |
 | 40 | 64 | 100 | 1000000 |
 | 80 | 128 | 200 | 10000000 |
+
+Test cases of Arithmetic calculation:
+
+Addition:
+
+1. Input 1: double Input 2: double
+2. Input 1: 0 Input 2: double
+3. Input 1: negative Input 2: double positive
+4. Input 1: negative double Input 2: negative double
+5. Input 1: char Input 2: char
+6. Input 1: char Input 2: double
+7. Input 1: double Input 2: char
+
+Subtraction:
+
+1. Input 1: double Input 2: double
+2. Input 1: 0 Input 2: double
+3. Input 1: negative Input 2: double positive
+4. Input 1: negative double Input 2: negative double
+5. Input 1: char Input 2: char
+6. Input 1: char Input 2: double
+7. Input 1: double Input 2: char
+
+Multiplication:
+
+1. Input 1: double Input 2: double
+2. Input 1: 0 Input 2: double
+3. Input 1: negative Input 2: double positive
+4. Input 1: negative double Input 2: negative double
+5. Input 1: char Input 2: char
+6. Input 1: char Input 2: double
+7. Input 1: double Input 2: char
+
+Division:
+
+1. Input 1: double Input 2: double
+2. Input 1: 0 Input 2: double
+3. Input 1: negative Input 2: double positive
+4. Input 1: negative double Input 2: negative double
+5. Input 1: char Input 2: char
+6. Input 1: char Input 2: double
+7. Input 1: double Input 2: char
+8. Input 1: double Input 2: 0
+
+Test cases of BMI calculation:
+
+BMI:
+
+1. Input 1: double Input 2: double
+2. Input 1: 0 Input 2: double
+3. Input 1: negative Input 2: double positive
+4. Input 1: negative double Input 2: negative double
+5. Input 1: char Input 2: char
+6. Input 1: char Input 2: double
+7. Input 1: double Input 2: char
+8. Input 1: double Input 2: 0
