@@ -77,3 +77,6 @@ Low level requirement of arithmetic and BMI:
 | 13. | LL13 | BMI | 74.84 | 1.88 | 21.8 | Requirement |
 | 14. | LL14 | BMI | 102.06 | 1.80 | 31.38 | Boundary |
 | 15. | LL15 | BMI | 61.23 | 1.63 | 23.17 | Scenario |
+
+Test Plan for Statistics and Investment Calculation
+![Rajat_Test](https://user-images.githubusercontent.com/78871103/107950436-b53ada80-6fbc-11eb-852e-68885c5876ab.PNG)
