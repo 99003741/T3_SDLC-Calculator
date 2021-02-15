@@ -2,7 +2,7 @@
 #include <calculator_operations.h>
 #include<conversion.h>
 #include<stat_invest.h>
-
+#include<conio.h>
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
 #define PROJECT_NAME    "Calculator"
