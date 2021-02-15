@@ -12,10 +12,15 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
+<<<<<<< HEAD
 void test_D2B(void);
 void test_D2O(void);
 void test_india(void);
 void test_dollar(void);
+=======
+void test_bmi(void);
+
+>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -33,10 +38,14 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+<<<<<<< HEAD
   RUN_TEST(test_D2B);
   RUN_TEST(test_D2O);
   RUN_TEST(test_india);
   RUN_TEST(test_dollar);
+=======
+  RUN_TEST(test_bmi);
+>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -122,3 +131,18 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
+
+
+void test_bmi(void) 
+  {
+     TEST_ASSERT_EQUAL(21.18, bmi(74.84, 1.88));
+     TEST_ASSERT_EQUAL(25.09, bmi(83.91, 1.83));
+     TEST_ASSERT_EQUAL(23.17, bmi(61.23, 1.63));
+     TEST_ASSERT_EQUAL(25.11, bmi(79.38,1.78 ));
+     TEST_ASSERT_EQUAL(31.38, bmi(102.06, 1.80));
+     TEST_ASSERT_EQUAL(19.37, bmi(54.43, 1.68));
+     TEST_ASSERT_EQUAL(23.40, bmi(65.77, 1.68));
+     TEST_ASSERT_EQUAL(33.64, bmi(115.67, 1.85));
+     
+  }
+
