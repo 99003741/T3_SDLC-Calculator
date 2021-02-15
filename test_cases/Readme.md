@@ -47,62 +47,8 @@ For example:-
 | 40 | 64 | 100 | 1000000 |
 | 80 | 128 | 200 | 10000000 |
 
-Test cases of Arithmetic calculation:
 
-Addition:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-
-Subtraction:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-
-Multiplication:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-
-Division:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-8. Input 1: double Input 2: 0
-
-Test cases of BMI calculation:
-
-BMI:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-8. Input 1: double Input 2: 0
-
+High level requirement of arithmetic and BMI:
 
 | S.NO. | ID | FEATURE | INPUT 1 | INPUT 2 | OUTPUT | CATEGORY |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -111,6 +57,8 @@ BMI:
 | 3. | HL3 | Multiplication | 4 | 10 | 40 | Requirement |
 | 4. | HL4 | Division | 40 | 2 | 20 | Requirement |
 | 5. | HL5 | BMI | 74.84 | 1.88 | 21.18 | Requirement |
+
+Low level requirement of arithmetic and BMI:
 
 | S. No. | ID | FEATURE | INPUT1 | INPUT2 | OUTPUT | CATEGORY |
 | --- | --- | --- | --- | --- | --- | --- |
