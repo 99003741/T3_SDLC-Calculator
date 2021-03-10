@@ -47,58 +47,36 @@ For example:-
 | 40 | 64 | 100 | 1000000 |
 | 80 | 128 | 200 | 10000000 |
 
-Test cases of Arithmetic calculation:
 
-Addition:
+High level requirement of arithmetic and BMI:
 
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
+| S.NO. | ID | FEATURE | INPUT 1 | INPUT 2 | OUTPUT | CATEGORY |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1. | HL1 | Addition | 2 | 32 | 34 | Requirement |
+| 2. | HL2 | Subtraction | 34 | 10 | 24 | Requirement |
+| 3. | HL3 | Multiplication | 4 | 10 | 40 | Requirement |
+| 4. | HL4 | Division | 40 | 2 | 20 | Requirement |
+| 5. | HL5 | BMI | 74.84 | 1.88 | 21.18 | Requirement |
 
-Subtraction:
+Low level requirement of arithmetic and BMI:
 
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
+| S. No. | ID | FEATURE | INPUT1 | INPUT2 | OUTPUT | CATEGORY |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1. | LL1 | Addition | 2 | 5 | 7 | Requirement |
+| 2. | LL2 | Addition | 1000000 | 1345 | 1001345.000000 | Boundary |
+| 3. | LL3 | Addition | -2 | 9 | 7 | Scenario |
+| 4. | LL4 | Subtraction | 5 | 3 | 2 | Requirement |
+| 5. | LL5 | Subtraction | 1000000 | 1345 | 998655.000000 | Boundary |
+| 6. | LL6 | Subtraction | -3 | -5 | -8 | Scenario |
+| 7. | LL7 | Multiplication | 2 | 5 | 10 | Requirement |
+| 8. | LL8 | Multiplication | 1000000 | 1345 | 1344999936.000000 | Boundary |
+| 9. | LL9 | Multiplication | 3 | -5 | -15 | Scenario |
+| 10. | LL10 | Division | 10 | 5 | 2 | Requirement |
+| 11. | LL11 | Division | 1000000 | 1345 | 743.494446 | Boundary |
+| 12. | LL12 | Division | -10 | 5 | -2 | Scenario |
+| 13. | LL13 | BMI | 74.84 | 1.88 | 21.8 | Requirement |
+| 14. | LL14 | BMI | 102.06 | 1.80 | 31.38 | Boundary |
+| 15. | LL15 | BMI | 61.23 | 1.63 | 23.17 | Scenario |
 
-Multiplication:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-
-Division:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-8. Input 1: double Input 2: 0
-
-Test cases of BMI calculation:
-
-BMI:
-
-1. Input 1: double Input 2: double
-2. Input 1: 0 Input 2: double
-3. Input 1: negative Input 2: double positive
-4. Input 1: negative double Input 2: negative double
-5. Input 1: char Input 2: char
-6. Input 1: char Input 2: double
-7. Input 1: double Input 2: char
-8. Input 1: double Input 2: 0
+Test Plan for Statistics and Investment Calculation
+![Rajat_Test](https://user-images.githubusercontent.com/78871103/107950436-b53ada80-6fbc-11eb-852e-68885c5876ab.PNG)
