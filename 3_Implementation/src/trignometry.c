@@ -3,7 +3,7 @@
 int trig()
 {
 
- 	double degree;
+ 	double degree=0;
 
  	printf("Enter your angle value in degree : ");
  	scanf("%lf",&degree);

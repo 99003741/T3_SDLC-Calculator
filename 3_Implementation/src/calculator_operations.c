@@ -36,5 +36,5 @@ int bmi(int operand1, int operand2)
 {
     if(0 == operand2)
         return 0;
-    return operand1 /operand2;
+    return operand1 /(operand2  ^  2);
 }

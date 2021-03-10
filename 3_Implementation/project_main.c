@@ -46,21 +46,18 @@ void calculator_menu(void)
     printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n7.conversion\n8.Trignometry\n9.integration\n10.BMI\n20. Exit\n");
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
     printf("\n\tEnter your choice\n");
-   
-     
     scanf("%d", &calculator_operation);
 
-    if(calculator_operation==20)
+    if(calculator_operation==EXIT)
     {
         printf("\nThank you. Exiting the Application\n");
         exit(0);
     }
 
-    /*if(INVALID != valid_operation(calculator_operation))
+    if(INVALID != valid_operation(calculator_operation))
     {
-        printf("\n\tEnter your Numbers with space between them\n");
-        
-        scanf("%f %f", &calculator_operand1, &calculator_operand2);
+        printf("\n\tStarting Operation\n");
+
     }
     else
     {
@@ -69,44 +66,28 @@ void calculator_menu(void)
         getchar();
         return;
         
-    }*/
+    }
     switch(calculator_operation)
     {
         case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            add(calculator_operand1, calculator_operand2));
-            
-            
-            //getchar();
+            printf("\n\tEnter two numbers\n");
+            scanf("%d %d",&calculator_operand1,&calculator_operand2);
+            printf("The result is=%d",add(calculator_operand1, calculator_operand2));
             break;
         case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            subtract(calculator_operand1, calculator_operand2));
-            
-            
-            //getchar();
+            printf("\n\tEnter two numbers\n");
+            scanf("%d %d",&calculator_operand1,&calculator_operand2);
+            printf("The result is=%d",subtract(calculator_operand1, calculator_operand2));
             break;
         case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            multiply(calculator_operand1, calculator_operand2));
-            
-            
-            //getchar();
+            printf("\n\tEnter two numbers\n");
+            scanf("%d %d",&calculator_operand1,&calculator_operand2);
+            printf("The result is=%d",multiply(calculator_operand1, calculator_operand2));
             break;
         case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            divide(calculator_operand1, calculator_operand2));
-            
-            
-            //getchar();
+            printf("\n\tEnter two numbers\n");
+            scanf("%d %d",&calculator_operand1,&calculator_operand2);
+            printf("The result is=%d",divide(calculator_operand1, calculator_operand2));
             break;
         case 5:
             stat();
@@ -114,22 +95,19 @@ void calculator_menu(void)
         case 6:
             invest();
             break;
-
         case 7:
             conversion();
             break;
         case 9:
             trig();
+            break;
         case 20:
-               
-
             exit(0);
             break;
         case 10:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            bmi(calculator_operand1, calculator_operand2));
+            printf("\n\tEnter weight and height\n");
+            scanf("%d %d",&calculator_operand1,&calculator_operand2);
+            printf("The result is=%d",bmi(calculator_operand1, calculator_operand2));
 
 
             //getchar();
@@ -139,8 +117,8 @@ void calculator_menu(void)
     }
 }
 
-/*int valid_operation(int operation)
+int valid_operation(int operation)
 {
     // Check if the operation is a valid operation 
     return ((ADD <= operation) && (EXIT >= operation)) ? VALID: INVALID;
-}*/
+}
