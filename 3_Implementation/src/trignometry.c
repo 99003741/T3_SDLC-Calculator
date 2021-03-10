@@ -1,6 +1,5 @@
+#include "trignometry.h"
 
-#include<stdio.h>
-#include<math.h>
 int trig()
 {
 
@@ -9,7 +8,7 @@ int trig()
  	printf("Enter your angle value in degree : ");
  	scanf("%lf",&degree);
 
- 	double radian = degree * (M_PI/180);
+ 	double radian = degree * (3.81/180);
 
      int x ;
      printf("Enter the function :");

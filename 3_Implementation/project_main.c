@@ -1,6 +1,7 @@
 #include <calculator_operations.h>
 #include "stat_invest.h"
 #include <conversion.h>
+#include "trignometry.h"
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -118,7 +119,7 @@ void calculator_menu(void)
             conversion();
             break;
         case 9:
-
+            trig();
         case 20:
                
 
