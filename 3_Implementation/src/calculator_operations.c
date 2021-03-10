@@ -4,61 +4,37 @@
 #include<conio.h>
 #include<stdio.h>
 
-float add(float operand1, float operand2)
+int add(int operand1, int operand2)
 { 
-   /* if(isdigit(operand1) && isdigit(operand2))
-{
+  
   return operand1 + operand2;
-}
-else
-{*/
-  return operand1 + operand2;
-//}
     
 }
 
-float subtract(float operand1, float operand2)
+int subtract(int operand1, int operand2)
 { 
-    if(isdigit(operand1) && isdigit(operand2))
-{
-  return operand1 - operand2;
-}
-else
-{
-  return 0;
-}
+    
+return operand1 - operand2;
     
 }
 
-float multiply(float operand1, float operand2)
+int multiply(int operand1, int operand2)
 { 
-    if(isdigit(operand1) && isdigit(operand2))
-{
-  return operand1 * operand2;
-}
-else
-{
-  return 0;
-}
+    return operand1 * operand2;
     
 }
 
-float divide(float operand1, float operand2)
+int divide(int operand1, int operand2)
 {
     if(0 == operand2)
         return 0;
-    else if(isdigit(operand1) && isdigit(operand2))
-        return operand1 / operand2;
     else
-        return 0;
+        return operand1 / operand2;
 }
 
-float bmi(float operand1, float operand2)
+int bmi(int operand1, int operand2)
 {
     if(0 == operand2)
         return 0;
-    else if(isdigit(operand1) && isdigit(operand2))
-        return operand1 / operand2;
-    else
-        return 0;
+    return operand1 /operand2;
 }

@@ -19,7 +19,7 @@ void test_D2O(void);
 void test_india(void);
 void test_dollar(void);
 void test_stat(void);
-=======
+
 void test_bmi(void);
 
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
@@ -46,7 +46,7 @@ int main()
   RUN_TEST(test_india);
   RUN_TEST(test_dollar);
   RUN_TEST(test_stat);
-=======
+
   RUN_TEST(test_bmi);
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 
