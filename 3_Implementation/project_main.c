@@ -43,7 +43,7 @@ void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
 //=======
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n7.conversion\n8.Trignometry\n9.integration\n10.BMI\n20. Exit\n");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5.Statistics\n6.Investment\n7.conversion\n8.Trignometry\n9.Differentiation\n10.BMI\n20. Exit\n");
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
     printf("\n\tEnter your choice\n");
     scanf("%d", &calculator_operation);
@@ -98,19 +98,19 @@ void calculator_menu(void)
         case 7:
             conversion();
             break;
-        case 9:
+        case 8:
             trig();
             break;
-        case 20:
-            exit(0);
+        case 9:
+            diff();
             break;
         case 10:
             printf("\n\tEnter weight and height\n");
             scanf("%d %d",&calculator_operand1,&calculator_operand2);
             printf("The result is=%d",bmi(calculator_operand1, calculator_operand2));
-
-
-            //getchar();
+            break;
+        case 20:
+            exit(0);
             break;
         default:
             printf("\n\t---It should never come here---\n");
