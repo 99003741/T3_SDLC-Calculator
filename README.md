@@ -1,10 +1,5 @@
 # T3_SDLC-Calculator
-[![Code Grade](https://www.code-inspector.com/project/18985/score/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
-[![Code Grade](https://www.code-inspector.com/project/18985/status/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
-![C/C++ CI](https://github.com/VishalBajLtts/BMI/workflows/C/C++%20CI/badge.svg)
-![Unity - Unit Testing](https://github.com/VishalBajLtts/BMI/workflows/Unity%20-%20Unit%20Testing/badge.svg)
-![Cppcheck](https://github.com/VishalBajLtts/BMI/workflows/Cppcheck/badge.svg)
-![Inspect](https://github.com/VishalBajLtts/BMI/workflows/Inspect/badge.svg)
+
 
 
 ## Folder Structure
