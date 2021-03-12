@@ -22,7 +22,7 @@ Name                             |   PS No.  |    Features    |
 `4) Ajit Bijapur                 | 99003736  | UMLDiagram,currency Conversion,Numeric Conversion|          
 
 ## High Level Requirment 
----------------------------------|-----------|----------------|
+-------------------| -----------------------------------------
 1)Statistic Operations
 2)Investment Prediction
 3)Numeric conversions
@@ -31,4 +31,5 @@ Name                             |   PS No.  |    Features    |
 6)BMI Conversion
 7)Trignometry operations
 8)Calculus Operations
+
 
