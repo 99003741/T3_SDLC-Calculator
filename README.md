@@ -33,6 +33,13 @@ Folder             | Description
 `6)`           | Trignometry operations
 `7)`           | Calculus Operations 
 
+## Challenges
+
+    1)We faced challenges in Workflow.
+    2)We faced challenges in Code Integration.
+    3)We faced challenges in git insprector
+    4)We faced challenges in Uml Diagram 
+
 
 
 
