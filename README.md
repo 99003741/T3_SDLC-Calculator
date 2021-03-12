@@ -19,8 +19,16 @@ Name                             |   PS No.  |    Features    |
 `1) Rajat Mehta`                 | 99003741  | UMLDiagram,Requirement Analysis, Statistics Investment Calculation|    
 `2) Prateek Chauhan`             | 99003739 `| UMLDiagram, Requirement Analysis,Arthimetic BMI|  
 `3) Rajendra hangodi     `       | 99003740  | UMLDiagram, BMI,Integration & Differation ,Trigometry|        
-`4) Ajit Bijapur                 | 99003736  | UMLDiagram,currency Conversion,Numeric Conversion|           | 
+`4) Ajit Bijapur                 | 99003736  | UMLDiagram,currency Conversion,Numeric Conversion|          
 
-<h2> SWOT </h2>
+## High Level Requirment 
+---------------------------------|-----------|----------------|
+1)Statistic Operations
+2)Investment Prediction
+3)Numeric conversions
+4)Currency conversions
+5)Arthemetic conversions
+6)BMI Conversion
+7)Trignometry operations
+8)Calculus Operations
 
-![](https://user-images.githubusercontent.com/78871103/107769970-bcfd4380-6d5e-11eb-9ba8-d50a2ae77009.JPG)
