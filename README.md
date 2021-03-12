@@ -23,13 +23,16 @@ Name                             |   PS No.  |    Features    |
 
 ## High Level Requirment 
 
-1)Statistic Operations
-2)Investment Prediction
-3)Numeric conversions 
-4)Currency conversions 
-5)Arthemetic conversions
-6)BMI Conversion 
-7)Trignometry operations 
-8)Calculus Operations 
+Folder             | Description
+-------------------| -----------------------------------------
+`1)            | Statistic Operations
+`2)`           | Investment Prediction
+`3)`           | Numeric conversions
+`4)`           | Arthemetic conversions 
+`5)`           | BMI Conversion  
+`6)`           | Trignometry operations
+`7)`           | Calculus Operations 
+
+
 
 
