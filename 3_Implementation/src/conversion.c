@@ -352,13 +352,13 @@ float rupees(float euro)
 float euro(float rupees)
 {
 float d;
-d=rupees/88.147832;
+d=rupees/88;
  printf("The amount in india %.2f",d);
 }
 float indian_rupees(float pound)
 {
     float e;
-    e=pound*100.371298;
+    e=pound*100;
     printf("The amount in india %.2f",e);
 }
 float pound(float rupees)
