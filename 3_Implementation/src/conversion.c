@@ -120,7 +120,7 @@ else
 
                 break;
         case 3:
-               printf("Enter  amount in rupees:\n");
+               printf("Enter  amount in rupees:\n");#conversion of rupees into dollar
                scanf("%f",&f);
                rupees(f);
 
