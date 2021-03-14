@@ -109,12 +109,12 @@ else
         {
 
         case 1:
-               printf("Enter amount in rupees:\n");
+               printf("Enter amount in rupees:\n");#conversion of rupees into india
                scanf("%f",&f);
                india(f);
                break;
         case 2:
-               printf("Enter  amount in dollar:\n");
+               printf("Enter  amount in dollar:\n");#conversion of dollar into india
                scanf("%f",&f);
                dollar(f);
 
