@@ -264,20 +264,36 @@ void test_divide5(void)
    TEST_ASSERT_EQUAL(232, divide(464, 2));
 }
 
-/*
+
 void test_bmi(void) 
   {
-     TEST_ASSERT_EQUAL(21.18, bmi(74.84, 1));
-     TEST_ASSERT_EQUAL(25.09, bmi(83.91, 1));
-     TEST_ASSERT_EQUAL(23.17, bmi(61.23, 1));
-     TEST_ASSERT_EQUAL(25.11, bmi(79.38,1 ));
-     TEST_ASSERT_EQUAL(31.38, bmi(102.06, 1.80));
-     TEST_ASSERT_EQUAL(19.37, bmi(54.43, 1.68));
-     TEST_ASSERT_EQUAL(23.40, bmi(65.77, 1.68));
-     TEST_ASSERT_EQUAL(33.64, bmi(115.67, 1.85));
+     TEST_ASSERT_EQUAL(74, bmi(74, 1));
+    
+     TEST_ASSERT_EQUAL(25, bmi(100, 2));
+     TEST_ASSERT_EQUAL(20, bmi(80, 2));
+     
      
   }
-  */
+
+void test_bmi1(void)
+{
+  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+}
+
+void test_bmi2(void)
+{
+  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+}
+
+void test_bmi(void)
+{
+  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+}
+
+void test_bmi(void)
+{
+  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+}
 
 
   void test_si(void)
