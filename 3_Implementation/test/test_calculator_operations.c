@@ -181,13 +181,6 @@ void test_dollar(void)
 }
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
-  
-  
-  
-  
-  
-  
-  
   TEST_ASSERT_EQUAL(-12, multiply(6, -2));
   
   /* Dummy fail*/
