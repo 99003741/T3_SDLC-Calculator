@@ -6,7 +6,7 @@ int conversion()
     float C, f, K, T, R, D, Pn, Currency;
     int num;
 
-    printf("Choose the conversion option\n");
+    printf("Choose the conversion option\n");   //type of conversion you need
     printf(" 1- numberic conversion\n");
     printf(" 2- Currency conversion \n");
     printf(" Enter the option: ");
@@ -16,7 +16,9 @@ int conversion()
     if(n==1)
 
     {
-
+        
+            //select the conversion of number you want
+        
             printf("\n1.Decimal 2 Binary.");
             printf("\n2.Decimal 2 Octal.");
             printf("\n3.Decimal 2 Hexa.");
@@ -33,7 +35,7 @@ int conversion()
 
 
         case 1:
-                printf("\nEnter any Decimal number:");
+                printf("\nEnter any Decimal number:");   //function of the decimal to binary
                 if(scanf("%d",&num)!=0 && num>0)
                 D2B(num);  //calling functionelse
 
@@ -44,7 +46,7 @@ int conversion()
 
         case 2:
 
-               printf("\nEnter any Decimal number:");
+               printf("\nEnter any Decimal number:");//function of the decimal to octal
                if(scanf("%d",&num)!=0 && num>0)
                D2O(num);  //calling functionelse
 
@@ -53,7 +55,7 @@ int conversion()
 
 
         case 3:
-               printf("\nEnter any Decimal number:");
+               printf("\nEnter any Decimal number:");  //function of the decimal to hexa 
                if(scanf("%d",&num)!=0 && num>0)
                D2H(num);  //calling functionelse
 
@@ -90,6 +92,7 @@ int conversion()
 
 else
     {
+        //currency conversion 
         printf("<<<<   Currency conversion option   >>>>\n");
         printf("1:Convert rupees to US Dollars\n");
         printf("2:Convert US Dollars to rupees\n");
@@ -106,25 +109,25 @@ else
         {
 
         case 1:
-               printf("Enter amount in rupees:\n");
+               printf("Enter amount in rupees:\n");//conversion of rupees into india
                scanf("%f",&f);
                india(f);
                break;
         case 2:
-               printf("Enter  amount in dollar:\n");
+               printf("Enter  amount in dollar:\n");//conversion of dollar into india
                scanf("%f",&f);
                dollar(f);
 
                 break;
         case 3:
-               printf("Enter  amount in rupees:\n");
+               printf("Enter  amount in rupees:\n");//conversion of rupees into dollar
                scanf("%f",&f);
                rupees(f);
 
 
                 break;
         case 4:
-                printf("Enter  amount in euro:\n");
+                printf("Enter  amount in euro:\n");//conversion of euro into rupees
                 scanf("%f",&f);
                 euro(num);
 
@@ -172,7 +175,7 @@ int D2B(int dec) //decimal to binary
   // return 0;
 }
 
-int D2O(int dec) //decimal to octal
+int D2O(int dec) //conversion decimal to octal
 {
   int oct=0,*oct_arr,count=0;
   while(dec>0)
@@ -191,7 +194,7 @@ int D2O(int dec) //decimal to octal
    return 0;
 }
 
-int D2H(int dec) //decimal to hexa
+int D2H(int dec) //conversion decimal to hexa
 {
   int hexa=0,*hexa_arr,count=0;
   while(dec>0)
@@ -231,7 +234,7 @@ int D2H(int dec) //decimal to hexa
    return 0;
 }
 
-int B2D(int bin) //binary to decimal
+int B2D(int bin) //converion binary to decimal
 {
    int *bin_arr,count=0,dec=0,mod,idx=0;
    while(bin!=0)
@@ -251,7 +254,7 @@ int B2D(int bin) //binary to decimal
   return dec;
 }
 
-int B2O(int dec)
+int B2O(int dec)// conversion binary to octal
 {
   int oct=0,*oct_arr,count=0;
   while(dec>0)
