@@ -10,19 +10,23 @@ src/calculator_operations.c\
 src/conversion.c\
 src/stat_invest.c\
 src/trignometry.c\
-src/differentation.c\
+src/differentation.c
 
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
+src/conversion.c\
+src/stat_invest.c\
+src/trignometry.c\
+src/differentation.c\
 test/test_calculator_operations.c\
-unity/unity.c\
+unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
 # All include folders with header files
 INC	= -Iinc\
--Iunity\
+-Iunity
 
 #Library Inlcudes
 #if working with CUnit 
@@ -42,7 +46,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
@@ -54,7 +58,7 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lm
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`

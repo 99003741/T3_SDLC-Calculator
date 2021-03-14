@@ -28,14 +28,17 @@ scanf("%lf", &r);
 
 double simple_interest(double pr, double ti, double ra)
 {
-    si = (pr * ti * ra)/100.0;     /* Calculating simple interest */
+    si = (pr * ti * ra)/100;     /* Calculating simple interest */
+    //printf("p: %d  t:%d  r:%d", pr,ti)
     printf("Simple Interest = %0.3f\n", si);
+    return si;
 }
 
 double compound_interest(double pr, double ti, double ra)
 {
     ci = pr * (pow(1+ra/100, ti) - 1); /* Calculating compound interest */
-    printf("Compound Interest = %0.3f", ci);
+    //printf("Compound Interest = %0.3f", ci);
+    return (ci);
 }
 
 
@@ -52,14 +55,14 @@ void stat()
     {
     case 1:
             printf("Enter Array Length\n");
-            scanf("%d",&length);
+            //scanf("%d",&length);
             printf("\nEnter array\n");
             for(i=0;i<length;i++)
             {
 
                 scanf("%lf",&input[i]);
             }
-            meann(input);
+            //meann(input);
             break;
     case 2:
             printf("Enter Array Length\n");
@@ -81,32 +84,32 @@ void stat()
 
                 scanf("%lf",&input[i]);
             }
-            modee(input);
+            //modee(input);
             break;
 
 
     }
 }
 
-double meann(double array[100])
+double meann(int len, double array[100])
 {
  double mean,sum=0;
  int i;
- for(i=0;i<length;i++)
+ for(i=0;i<len;i++)
  {
      sum+=array[i];
  }
- mean=sum/length;
- printf("mean is %lf\n",mean);
+ mean=sum/len;
+ //printf("mean is %lf\n",mean);
  return mean;
 }
-double modee(double array[1000])
+double modee(int len, double array[1000])
 {
     double mode;
     int i,j,count,count1=1;
-    for(i=0;i<length;i++)
+    for(i=0;i<len;i++)
     {
-        for(j=0;j<length;j++)
+        for(j=0;j<len;j++)
         {
             if(array[i]==array[j])
             {
@@ -121,6 +124,7 @@ double modee(double array[1000])
             mode=array[i];
         }
     }
-    printf("Mode : %lf", mode);
+    return (mode);
+    //printf("Mode : %lf", mode);
 
 }

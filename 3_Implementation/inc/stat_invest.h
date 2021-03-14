@@ -6,13 +6,13 @@
 #include<math.h>
 double p, t, r, si, ci;
 void invest();
-double simple_interest();
-double compound_interest();
+double simple_interest(double , double, double );
+double compound_interest(double, double, double);
 int length;
 void stat();
-double meann();
+double meann(int len, double array[100]);
 double mediann();
-double modee();
+double modee(int len, double array[100]);
 
 
 
