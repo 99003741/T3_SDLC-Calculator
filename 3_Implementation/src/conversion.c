@@ -194,7 +194,7 @@ int D2O(int dec) //conversion decimal to octal
    return 0;
 }
 
-int D2H(int dec) //decimal to hexa
+int D2H(int dec) //conversion decimal to hexa
 {
   int hexa=0,*hexa_arr,count=0;
   while(dec>0)
@@ -234,7 +234,7 @@ int D2H(int dec) //decimal to hexa
    return 0;
 }
 
-int B2D(int bin) //binary to decimal
+int B2D(int bin) //converion binary to decimal
 {
    int *bin_arr,count=0,dec=0,mod,idx=0;
    while(bin!=0)
@@ -254,7 +254,7 @@ int B2D(int bin) //binary to decimal
   return dec;
 }
 
-int B2O(int dec)
+int B2O(int dec)// conversion binary to octal
 {
   int oct=0,*oct_arr,count=0;
   while(dec>0)
