@@ -1,5 +1,7 @@
 # T3_SDLC-Calculator
-
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+![C/C++ CI](https://github.com/99003741/T3_SDLC-Calculator/actions/workflows/c-cpp.yml/badge.svg) | ![Cppcheck](https://github.com/99003741/T3_SDLC-Calculator/actions/workflows/cppcheck.yml/badge.svg) ![Codacy Security Scan](https://github.com/99003741/T3_SDLC-Calculator/actions/workflows/codacy-analysis.yml/badge.svg) |  
 
 
 ## Folder Structure
