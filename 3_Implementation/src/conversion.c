@@ -64,13 +64,13 @@ int conversion()
 
 
         case 4:
-                printf("\nEnter any binary number:");
+                printf("\nEnter any binary number:");  //function of the binary to octal
                 if(scanf("%d",&num)!=0)// && (num==0 || num==1))
                 B2O(B2D(num));  //calling functionelse
                 break;
 
         case 5:
-                printf("\nEnter any binary number:");
+                printf("\nEnter any binary number:");  //function of the decimal to hexa 
                 if(scanf("%d",&num)!=0)// && (num==0 || num==1))
                 B2H(B2D(num));  //calling functionelse
                 break;
