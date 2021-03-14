@@ -111,6 +111,11 @@ void test_dollar(void)
   TEST_ASSERT_EQUAL(72.6,dollar(1));
 
 }
+void test_pound(void)
+{
+  TEST_ASSERT_EQUAL(101.8,pound(1));
+
+}
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
   TEST_ASSERT_EQUAL(0, multiply(0, 0));
