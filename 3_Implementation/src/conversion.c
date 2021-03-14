@@ -35,7 +35,7 @@ int conversion()
 
 
         case 1:
-                printf("\nEnter any Decimal number:");
+                printf("\nEnter any Decimal number:");   #function of the decimal to binary
                 if(scanf("%d",&num)!=0 && num>0)
                 D2B(num);  //calling functionelse
 
@@ -46,7 +46,7 @@ int conversion()
 
         case 2:
 
-               printf("\nEnter any Decimal number:");
+               printf("\nEnter any Decimal number:");#function of the decimal to octal
                if(scanf("%d",&num)!=0 && num>0)
                D2O(num);  //calling functionelse
 
@@ -55,7 +55,7 @@ int conversion()
 
 
         case 3:
-               printf("\nEnter any Decimal number:");
+               printf("\nEnter any Decimal number:");#function of the decimal to hexa 
                if(scanf("%d",&num)!=0 && num>0)
                D2H(num);  //calling functionelse
 
