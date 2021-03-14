@@ -6,7 +6,7 @@ int conversion()
     float C, f, K, T, R, D, Pn, Currency;
     int num;
 
-    printf("Choose the conversion option\n");
+    printf("Choose the conversion option\n");   #type of conversion you need
     printf(" 1- numberic conversion\n");
     printf(" 2- Currency conversion \n");
     printf(" Enter the option: ");
