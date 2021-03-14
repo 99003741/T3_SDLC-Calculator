@@ -92,6 +92,7 @@ int conversion()
 
 else
     {
+        #currency conversion 
         printf("<<<<   Currency conversion option   >>>>\n");
         printf("1:Convert rupees to US Dollars\n");
         printf("2:Convert US Dollars to rupees\n");
