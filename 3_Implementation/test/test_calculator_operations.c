@@ -73,16 +73,43 @@ void test_stat(void)
 }
 */
 void test_add(void) {
-  TEST_ASSERT_EQUAL(30, add(10, 20));
+  TEST_ASSERT_EQUAL(30, add(10, 20)); 
+}
+void test_add1(void)
+{
   TEST_ASSERT_EQUAL(-10, add(10, -20));
+}
+
+void test_add2(void)
+{
   TEST_ASSERT_EQUAL(-20, add(10, -30));
+}
+
+void test_add3(void)
+{
   TEST_ASSERT_EQUAL(-30, add(0, -30));
+}
+
+void test_add4(void)
+{
   TEST_ASSERT_EQUAL(10, add(10, 0));
+}
+
+void test_add5(void)
+{
   TEST_ASSERT_EQUAL(-20, add(10, -30));
+}
+
+void test_add6(void)
+{
   TEST_ASSERT_EQUAL(2, add(1, 1));
-  TEST_ASSERT_EQUAL(2, add(1, 1));
+}
+void test_add7(void)
+{
   TEST_ASSERT_EQUAL(1, add(0, 1));
 }
+
+
 void test_add_testcase2(void) {
  
   /* Dummy fail*/
