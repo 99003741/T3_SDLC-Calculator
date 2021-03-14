@@ -268,10 +268,6 @@ void test_divide5(void)
 void test_bmi(void) 
   {
      TEST_ASSERT_EQUAL(74, bmi(74, 1));
-    
-     TEST_ASSERT_EQUAL(25, bmi(100, 2));
-     TEST_ASSERT_EQUAL(20, bmi(80, 2));
-     
      
   }
 
@@ -282,15 +278,15 @@ void test_bmi1(void)
 
 void test_bmi2(void)
 {
-  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+  TEST_ASSERT_EQUAL(25, bmi(100, 2));
 }
 
-void test_bmi(void)
+void test_bmi3(void)
 {
-  TEST_ASSERT_EQUAL(83, bmi(83, 1));
+  TEST_ASSERT_EQUAL(20, bmi(80, 2));
 }
 
-void test_bmi(void)
+void test_bmi4(void)
 {
   TEST_ASSERT_EQUAL(83, bmi(83, 1));
 }
