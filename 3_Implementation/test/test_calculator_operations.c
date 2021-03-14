@@ -2,6 +2,7 @@
 #include <calculator_operations.h>
 #include<conversion.h>
 #include<stat_invest.h>
+//#include<differentation.h>
 #include<conio.h>
 /* Modify these two lines according to the project */
 //#include <calculator_operations.h>
@@ -14,19 +15,48 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 //<<<<<<< HEAD
-void test_D2B(void);
-void test_D2O(void);
-void test_india(void);
-void test_dollar(void);
+//void test_D2B(void);
+//void test_D2O(void);
+//void test_india(void);
+//void test_dollar(void);
 void test_stat(void);
-
 void test_bmi(void);
-
-
 void test_mean(void);
 void test_mode(void);
 void test_ci(void);
 void test_si(void);
+void test_add1(void);
+void test_add2(void);
+void test_add3(void);
+void test_add4(void);
+void test_add5(void);
+void test_add6(void);
+void test_add7(void);
+void test_subtract2(void);
+void test_subtract3(void);
+void test_subtract4(void);
+void test_subtract5(void);
+void test_subtract6(void);
+void test_subtract7(void);
+void test_subtract8(void);
+void test_multiply1(void);
+void test_multiply2(void);
+void test_multiply3(void);
+void test_multiply4(void);
+void test_multiply5(void);
+void test_multiply6(void);
+void test_multiply7(void);
+void test_bmi1(void);
+void test_bmi2(void);
+void test_bmi3(void);
+void test_bmi4(void);
+void test_divide1(void);
+void test_divide2(void);
+void test_divide3(void);
+void test_divide4(void);
+void test_divide5(void);
+
+
 
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 /* Required by the unity test framework */
@@ -47,10 +77,10 @@ int main()
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
 //<<<<<<< HEAD
-  RUN_TEST(test_D2B);
-  RUN_TEST(test_D2O);
-  RUN_TEST(test_india);
-  RUN_TEST(test_dollar);
+  //RUN_TEST(test_D2B);
+  //RUN_TEST(test_D2O);
+  //RUN_TEST(test_india);
+  //RUN_TEST(test_dollar);
   //RUN_TEST(test_stat);
 
   //RUN_TEST(test_bmi);
@@ -59,6 +89,38 @@ int main()
   RUN_TEST(test_ci);
   RUN_TEST(test_mean);
   RUN_TEST(test_mode);
+  RUN_TEST(test_add1);
+  RUN_TEST(test_add2);
+  RUN_TEST(test_add3);
+  RUN_TEST(test_add4);
+  RUN_TEST(test_add5);
+  RUN_TEST(test_add6);
+  RUN_TEST(test_add7);
+  //RUN_TEST(test_subtract1);
+  RUN_TEST(test_subtract2);
+  RUN_TEST(test_subtract3);
+  RUN_TEST(test_subtract4);
+  RUN_TEST(test_subtract5);
+  RUN_TEST(test_subtract6);
+  RUN_TEST(test_subtract7);
+  RUN_TEST(test_subtract8);
+  RUN_TEST(test_multiply1);
+  RUN_TEST(test_multiply2);
+  RUN_TEST(test_multiply3);
+  RUN_TEST(test_multiply4);
+  RUN_TEST(test_multiply5);
+  RUN_TEST(test_multiply6);
+  RUN_TEST(test_multiply7);
+  RUN_TEST(test_divide1);
+  RUN_TEST(test_divide2);
+  RUN_TEST(test_divide3);
+  RUN_TEST(test_divide4);
+  RUN_TEST(test_divide5);
+  RUN_TEST(test_bmi1);
+  RUN_TEST(test_bmi2);
+  RUN_TEST(test_bmi3);
+  RUN_TEST(test_bmi4);
+  
 //>>>>>>> 2bee00454dda1b81f225873c06c62219de9e19ba
 
   /* Close the Unity Test Framework */
@@ -115,11 +177,11 @@ void test_add_testcase2(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1500, add(750, 750));
 }
-void test_D2B(void)
+/*void test_D2B(void)
 {
   TEST_ASSERT_EQUAL(11001, D2B(25));
   TEST_ASSERT_EQUAL(11010, D2B(26));
-}
+}*/
  void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
   TEST_ASSERT_EQUAL(0, subtract(0, 0));
@@ -164,7 +226,7 @@ void test_subtract8(void)
   TEST_ASSERT_EQUAL(3, subtract(6, 3));
 }
 
-void test_D2O(void)
+/*void test_D2O(void)
 {
   TEST_ASSERT_EQUAL(31, D2B(25));
   TEST_ASSERT_EQUAL(32, D2B(26));
@@ -178,7 +240,7 @@ void test_dollar(void)
 {
   TEST_ASSERT_EQUAL(72.6,dollar(1));
 
-}
+}*/
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
   TEST_ASSERT_EQUAL(-12, multiply(6, -2));

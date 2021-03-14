@@ -1,3 +1,5 @@
+#include <math.h>
+#include<stdio.h>
 float poly(float a[], int, float);
 float deriv(float a[], int, float);
 
