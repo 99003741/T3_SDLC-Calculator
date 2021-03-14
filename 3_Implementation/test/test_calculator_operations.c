@@ -181,31 +181,87 @@ void test_dollar(void)
 }
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
-  TEST_ASSERT_EQUAL(0, multiply(0, 0));
-  TEST_ASSERT_EQUAL(2, multiply(1, 2));
-  TEST_ASSERT_EQUAL(2, multiply(2, 1));
-  TEST_ASSERT_EQUAL(12, multiply(12, 1));
-  TEST_ASSERT_EQUAL(24, multiply(3, 8));
-  TEST_ASSERT_EQUAL(210, multiply(21, 10));
-  TEST_ASSERT_EQUAL(0, multiply(-1, 0));
+  
+  
+  
+  
+  
+  
+  
   TEST_ASSERT_EQUAL(-12, multiply(6, -2));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(10, multiply(2, 5));
 }
 
+void test_multiply1(void)
+{
+   TEST_ASSERT_EQUAL(0, multiply(0, 0));
+}
+
+void test_multiply2(void)
+{
+   TEST_ASSERT_EQUAL(2, multiply(1, 2));
+}
+
+void test_multiply3(void)
+{
+   TEST_ASSERT_EQUAL(2, multiply(2, 1));
+}
+
+void test_multiply4(void)
+{
+  TEST_ASSERT_EQUAL(12, multiply(12, 1));
+}
+
+void test_multiply5(void)
+{
+   TEST_ASSERT_EQUAL(24, multiply(3, 8));
+}
+
+void test_multiply6(void)
+{
+   TEST_ASSERT_EQUAL(210, multiply(21, 10));
+}
+
+void test_multiply7(void)
+{
+   TEST_ASSERT_EQUAL(0, multiply(-1, 0));
+}
+
+
 void test_divide(void) {
   //TEST_ASSERT_EQUAL(0, divide(1, 0));
   TEST_ASSERT_EQUAL(1, divide(50, 50));
-  TEST_ASSERT_EQUAL(2, divide(2, 1));
-  TEST_ASSERT_EQUAL(10, divide(100, 10));
-  TEST_ASSERT_EQUAL(-1, divide(1, -1));
-  TEST_ASSERT_EQUAL(-2, divide(-4, 2));
-  TEST_ASSERT_EQUAL(232, divide(464, 2));
-  TEST_ASSERT_EQUAL(-20, divide(-20, 1));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1, divide(2, 2));
+}
+
+
+void test_divide1(void)
+{
+   TEST_ASSERT_EQUAL(2, divide(2, 1));
+}
+
+void test_divide2(void)
+{
+   TEST_ASSERT_EQUAL(10, divide(100, 10));
+}
+
+void test_divide3(void)
+{
+   TEST_ASSERT_EQUAL(-1, divide(1, -1));
+}
+
+void test_divide4(void)
+{
+   TEST_ASSERT_EQUAL(-2, divide(-4, 2));
+}
+
+void test_divide5(void)
+{
+   TEST_ASSERT_EQUAL(232, divide(464, 2));
 }
 
 /*
