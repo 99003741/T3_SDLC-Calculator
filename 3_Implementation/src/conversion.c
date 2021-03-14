@@ -16,7 +16,9 @@ int conversion()
     if(n==1)
 
     {
-
+        
+            #select the conversion of number you want
+        
             printf("\n1.Decimal 2 Binary.");
             printf("\n2.Decimal 2 Octal.");
             printf("\n3.Decimal 2 Hexa.");
