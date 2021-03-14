@@ -32,6 +32,19 @@ Folder             | Description
 `6)`           | Trignometry operations
 `7)`           | Calculus Operations 
 
+##Low Level Requirements
+
+| ID | Description |
+| --- | --- |
+| LL1 | +,-,\*,/ of floating and integer numbers |
+| LL2 | Sin, cos, tan, cot, sec, cosec of angles and their inverse |
+| LL3 | Integration and differentiation functions |
+| LL4 | Mean, mode, median, SD |
+| LL5 | Decimal to binary, hexadecimal, octa decimal and vice versa |
+| LL6 | Rupees to dollar, pound, dinar, euro, yen and vice versa |
+| LL7 | Compound and simple interest |
+| LL8 | BMI category |
+
 
 ## Challenges
 
@@ -45,3 +58,5 @@ Folder             | Description
 ## Project Contribution Details
 
 ![image](https://user-images.githubusercontent.com/78853339/111077725-27e59a00-8518-11eb-8823-ae54ef8394ca.png)
+
+
