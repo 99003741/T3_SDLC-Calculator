@@ -120,21 +120,50 @@ void test_D2B(void)
   TEST_ASSERT_EQUAL(11001, D2B(25));
   TEST_ASSERT_EQUAL(11010, D2B(26));
 }
-void test_subtract(void) {
+ void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
-  TEST_ASSERT_EQUAL(3, subtract(3, 0));
-  TEST_ASSERT_EQUAL(-9, subtract(-6, 3));
-  TEST_ASSERT_EQUAL(3, subtract(6, 3));
-  TEST_ASSERT_EQUAL(0, subtract(6, 6));
   TEST_ASSERT_EQUAL(0, subtract(0, 0));
-  TEST_ASSERT_EQUAL(3, subtract(16, 13));
-  TEST_ASSERT_EQUAL(-3, subtract(13, 16));
-  TEST_ASSERT_EQUAL(3, subtract(6, 3));
   TEST_ASSERT_EQUAL(300, subtract(600, 300));
   
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(1, subtract(1000, 900));
 }
+
+void test_subtract2(void)
+{
+  TEST_ASSERT_EQUAL(3, subtract(3, 0));
+}
+
+void test_subtract3(void)
+{
+  TEST_ASSERT_EQUAL(-9, subtract(-6, 3));
+}
+
+void test_subtract4(void)
+{
+  TEST_ASSERT_EQUAL(3, subtract(6, 3));
+}
+
+void test_subtract5(void)
+{
+  TEST_ASSERT_EQUAL(0, subtract(6, 6));
+}
+
+void test_subtract6(void)
+{
+  TEST_ASSERT_EQUAL(3, subtract(16, 13));
+}
+
+void test_subtract7(void)
+{
+  TEST_ASSERT_EQUAL(-3, subtract(13, 16));
+}
+
+void test_subtract8(void)
+{
+  TEST_ASSERT_EQUAL(3, subtract(6, 3));
+}
+
 void test_D2O(void)
 {
   TEST_ASSERT_EQUAL(31, D2B(25));
