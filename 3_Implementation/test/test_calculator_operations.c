@@ -226,12 +226,13 @@ void test_subtract8(void)
   TEST_ASSERT_EQUAL(3, subtract(6, 3));
 }
 
-/*void test_D2O(void)
+void test_D2B(void)
 {
-  TEST_ASSERT_EQUAL(31, D2B(25));
-  TEST_ASSERT_EQUAL(32, D2B(26));
+  TEST_ASSERT_EQUAL(11001, D2B(25));
+ // TEST_ASSERT_EQUAL(32, D2B(26));
 }
-void test_india(void)
+
+/*void test_india(void)
 {
   TEST_ASSERT_EQUAL(0.99, india(72));
 
