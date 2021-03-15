@@ -76,6 +76,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_D2B);
 //<<<<<<< HEAD
   //RUN_TEST(test_D2B);
   //RUN_TEST(test_D2O);
@@ -230,6 +231,7 @@ void test_D2B(void)
 {
   TEST_ASSERT_EQUAL(11001, D2B(25));
   TEST_ASSERT_EQUAL(11010, D2B(26));
+  TEST_ASSERT_EQUAL(11110, D2B(30));
 }
 
 /*void test_india(void)
