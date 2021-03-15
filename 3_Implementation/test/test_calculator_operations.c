@@ -229,7 +229,7 @@ void test_subtract8(void)
 void test_D2B(void)
 {
   TEST_ASSERT_EQUAL(11001, D2B(25));
- // TEST_ASSERT_EQUAL(32, D2B(26));
+  TEST_ASSERT_EQUAL(11010, D2B(26));
 }
 
 /*void test_india(void)
