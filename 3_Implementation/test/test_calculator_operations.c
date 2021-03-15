@@ -55,6 +55,7 @@ void test_divide2(void);
 void test_divide3(void);
 void test_divide4(void);
 void test_divide5(void);
+void test_D2B(void);
 
 
 
