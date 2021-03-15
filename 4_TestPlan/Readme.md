@@ -80,3 +80,17 @@ Low level requirement of arithmetic and BMI:
 
 Test Plan for Statistics and Investment Calculation
 ![Rajat_Test](https://user-images.githubusercontent.com/78871103/107950436-b53ada80-6fbc-11eb-852e-68885c5876ab.PNG)
+
+
+| Test ID | Requirement | Expected Output |
+| --- | --- | --- |
+| LLR1 | sin(30)  | -0.988032 |
+| LLR2 | cos(30)| 0.1542  |
+| LLR3 | tan(30) | -6.405331 |
+| LLR4 | sin(60)  | -0.304811 |
+| LLR5 | cos(60)| -0.9524 |
+| LLR6 | tan(60) | 0.32004  |
+
+
+
+
