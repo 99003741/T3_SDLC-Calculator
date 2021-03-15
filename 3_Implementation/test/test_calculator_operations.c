@@ -55,7 +55,7 @@ void test_divide2(void);
 void test_divide3(void);
 void test_divide4(void);
 void test_divide5(void);
-void test_D2B(void);
+//void test_D2B(void);
 
 
 
@@ -77,7 +77,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
-  RUN_TEST(test_D2B);
+ // RUN_TEST(test_D2B);
 //<<<<<<< HEAD
   //RUN_TEST(test_D2B);
   //RUN_TEST(test_D2O);
@@ -235,12 +235,13 @@ void test_D2B(void)
   TEST_ASSERT_EQUAL(11110, D2B(30));
 }
 
-/*void test_india(void)
+void test_india(void)
 {
-  TEST_ASSERT_EQUAL(0.99, india(72));
+  TEST_ASSERT_EQUAL(1.38, india(100));
+  TEST_ASSERT_EQUAL(4.13, india(300));
 
 }
-void test_dollar(void)
+/*void test_dollar(void)
 {
   TEST_ASSERT_EQUAL(72.6,dollar(1));
 
