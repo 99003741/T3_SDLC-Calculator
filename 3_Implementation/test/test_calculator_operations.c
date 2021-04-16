@@ -243,7 +243,7 @@ void test_subtract8(void)
 }*/
 void test_dollar(void)
 {
-  TEST_ASSERT_EQUAL(7454.3,dollar(100));
+  TEST_ASSERT_EQUAL(1.38,dollar(100));
 
 }
 void test_multiply(void) {
