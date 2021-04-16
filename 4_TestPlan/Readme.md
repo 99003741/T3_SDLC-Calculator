@@ -8,19 +8,19 @@ For example:-
 
 | Indian Rupee |               | inv. 1.00 INR |
 
-| US Dollar |       | inv. 1.00 INR |    into        | [72.707267]
+| US Dollar |        inv. 1.00 INR |    into        | [72.707267]
 
-| Euro |            | inv. 1.00 INR |    into        | [88.147832]
+| Euro |             inv. 1.00 INR |    into        | [88.147832]
 
-| British Pound |   | inv. 1.00 INR |    into        | [100.371298]
+| British Pound |    inv. 1.00 INR |    into        | [100.371298]
 
-| Australian Dollar| | inv. 1.00 INR |    into       | [56.324976]
+| Australian Dollar|  inv. 1.00 INR |    into       | [56.324976]
 
-| Canadian Dollar | | inv. 1.00 INR |    into       | [57.229480]
+| Canadian Dollar |  inv. 1.00 INR |    into       | [57.229480]
 
-| Singapore Dollar | | inv. 1.00 INR |    into       | [54.835761]
+| Singapore Dollar |  inv. 1.00 INR |    into       | [54.835761]
 
-| Japanese Yen | |  inv. 1.00 INR |    into       [0.693853]
+| Japanese Yen |  inv. 1.00 INR |    into       [0.693853]
 
 
 3.converting the number decimal into hex ,binary ,octal.
