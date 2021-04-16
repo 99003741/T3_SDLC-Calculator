@@ -20,7 +20,7 @@ For example:-
 
 | Singapore Dollar | | inv. 1.00 INR |    into       | [54.835761]
 
-| Japanese Yen | |  | inv. 1.00 INR |    into       [0.693853]
+| Japanese Yen | |  inv. 1.00 INR |    into       [0.693853]
 
 
 3.converting the number decimal into hex ,binary ,octal.
