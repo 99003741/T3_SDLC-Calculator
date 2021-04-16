@@ -27,7 +27,7 @@ Folder             | Description
 `1)            | Statistic Operations
 `2)`           | Investment Prediction
 `3)`           | Numeric conversions
-`4)`           | Arthemetic conversions 
+`4)`           | Arthemetic Operations 
 `5)`           | BMI Conversion  
 `6)`           | Trignometry operations
 `7)`           | Calculus Operations 
