@@ -6,7 +6,7 @@ Test cases of numberic conversion and currency conversion :
 
 For example:-
 
-| Indian Rupee |               | inv. 1.00 INR |
+| Indian Rupee |               inv. 1.00 INR |
 
 | US Dollar |        inv. 1.00 INR |    into        | [72.707267]
 
